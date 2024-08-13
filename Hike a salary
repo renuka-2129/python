@@ -1,0 +1,10 @@
+sal=int(input()) 
+hike=int(input()) 
+if(hike==3):
+    c=sal+((15/100)*sal) 
+elif(hike==4):
+    c=sal+((7/100)*sal) 
+elif(hike==5):
+    c=sal+((5/100)*sal) 
+print(int(c)) 
+          
